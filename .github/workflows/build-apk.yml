@@ -13,7 +13,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -o MemoryRecall-Keyboard-Version4.zip -d extracted
+          unzip -o MemoryRecall-Keyboard-Version5.zip -d extracted
           cp -a extracted/. .
 
       - name: Set up Java 17
